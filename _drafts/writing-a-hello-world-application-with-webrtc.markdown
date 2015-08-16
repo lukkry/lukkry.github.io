@@ -43,7 +43,7 @@ Each peer connects to the server via WebSocket and can send messages in the foll
 {% highlight ruby %}
 type: [peer.connected | peer.disconnected | icecandidate | sdp.offer | sdp.answer]
 from: UUID
-to: [UUID | *] # * instructs the server to broadcast the message to all peers.
+to:   [UUID | *] # * instructs the server to broadcast the message to all peers.
 {% endhighlight %}
 
 Below, you can see a diagram which shows how messages flow between different parts of the system. Remember that some of these actions, like fetching ICE candidates and sending an SDP offer, could happen concurrently.

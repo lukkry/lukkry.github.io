@@ -55,7 +55,7 @@ Learning WebRTC might be a little bit overwhelming at the beginning; it involves
 
 ## References
 
-* [WebRTC-Sandbox code][webrtc-sandbox]
+* [WebRTC Sandbox code][webrtc-sandbox]
 * [webrtc.org][webrtc-org]
 * [Getting Started with WebRTC][webrtc-tutorial]
 * [WebRTC API][webrtc-api]

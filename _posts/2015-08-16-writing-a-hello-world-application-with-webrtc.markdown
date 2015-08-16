@@ -50,7 +50,7 @@ Below, you can see a diagram which shows how messages flow between different par
 <img class="center-image webrtc-low-lvl-overview" src="/assets/webrtc_low_level_v1.svg" />
 
 ## Sum-up
-Learning WebRTC might be a little bit overwhelming at the beginning; it involves many different protocols, think about ICE, STUN, SDP, and remember that some actions could be taken concurrently. However, once you get your head around this, it all turns out to be quite simple, and you’ll be surprised how easily you can send data between directly-connected browsers these days.
+Learning WebRTC might be a little bit overwhelming at the beginning; it involves many different protocols, think about ICE, STUN, SDP, and you need to remember that some actions could be taken concurrently. However, once you get your head around this, it all turns out to be quite simple, and you’ll be surprised how easily you can send data between directly-connected browsers these days.
 
 
 ## References

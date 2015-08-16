@@ -20,7 +20,7 @@ It’s worth noting that WebRTC is not a protocol, it’s a technology which req
 
 ## WebRTC Sandbox Architecture Overview
 
-The following description illustrates how the WebRTC-sandbox uses WebRTC to connect peers and send media (audio and video) between them.
+The following description illustrates how the WebRTC Sandbox uses WebRTC to connect peers and send media (audio and video) between them.
 
 The whole system can be divided into three separate parts:
 

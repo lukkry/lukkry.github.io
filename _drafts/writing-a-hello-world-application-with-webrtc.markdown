@@ -6,9 +6,9 @@ categories: webrtc
 ---
 Have you ever wondered what it takes to write a web application which is able to send bytes of data between directly connected browsers, in real time? Me too, that’s why I decided to learn about WebRTC (Web Real-Time Communication), a technology which powers many well-known, real-time applications like Google Hangouts or Facebook Messenger.
 
-Even though I use WebRTC everyday when working with the twilio.js library, I don’t deal with it directly, because it’s all wrapped in Twilio API.
+Even though I use WebRTC everyday when working with the [twilio.js][twilio-js] library, I don’t deal with it directly, because it’s all wrapped in Twilio API.
 
-The best way to learn a new technology is to just use it, so I’ve decided to write a simple video application, where WebRTC is used to connect peers (browsers) and send audio and video data between them. You can see it in action at webrtc.lukkry.info. The code is on [GitHub][webrtc-sandbox].
+The best way to learn a new technology is to just use it, so I’ve decided to write a simple video application, where WebRTC is used to connect peers (browsers) and send audio and video data between them. You can see it in action at [webrtc.lukkry.info][webrtc]. The code is on [GitHub][webrtc-sandbox].
 
 I am by no means a WebRTC expert and this is not a WebRTC tutorial. It's mainly meant as a reminder for how I implemented that particular application, so I can do it again once I've forgotten.
 
@@ -56,10 +56,16 @@ Learning WebRTC might be a little bit overwhelming at the beginning; it involves
 
 References:
 
-* https://github.com/lukkry/webrtc-sandbox
-* http://www.webrtc.org/
-* http://www.html5rocks.com/en/tutorials/webrtc/basics/
-* https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
-* https://www.twilio.com/signal/2015/videos/webrtc-exposed-what-we-can-learn-from-blackbox-exploration-of-popular-voice-video-services
+* [WebRTC-Sandbox code][webrtc-sandbox]
+* [webrtc.org][webrtc-org]
+* [Getting Started with WebRTC][webrtc-tutorial]
+* [WebRTC API][webrtc-api]
+* [WebRTC exposed: What we can learn from blackbox exploration of popular voice & video services][webrtc-signal]
 
 [webrtc-sandbox]: https://github.com/lukkry/webrtc-sandbox
+[twilio-js]: https://www.twilio.com/docs/client/twilio-js
+[webrtc]: http://www.webrtc.lukkry.info
+[webrtc-org]: http://www.webrtc.org/
+[webrtc-tutorial]: http://www.html5rocks.com/en/tutorials/webrtc/basics/
+[webrtc-api]: https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
+[webrtc-signal]: https://www.twilio.com/signal/2015/videos/webrtc-exposed-what-we-can-learn-from-blackbox-exploration-of-popular-voice-video-services

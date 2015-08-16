@@ -13,3 +13,5 @@ github_username:  lukkry
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+permalink: /:title/

@@ -12,14 +12,14 @@ The best way to learn a new technology is to just use it, so I’ve decided to w
 
 I am by no means a WebRTC expert and this is not a WebRTC tutorial. It's mainly meant as a reminder for how I implemented that particular application, so I can do it again once I've forgotten.
 
-# What is WebRTC?
-“WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs.” - webrtc.org
+## What is WebRTC?
+"WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs." - webrtc.org
 
 One of the nicest things about WebRTC is that it is built in into all major browsers (except Safari and IE) so users are not forced to install any additional plugins. If you’re doing any real time communication on the web using Flash or Java, it might be a good fit for you.
 
 It’s worth noting that WebRTC is not a protocol, it’s a technology which requires many different protocols, like ICE, STUN, TURN, SDP etc., in order to work.
 
-# WebRTC-sandbox Architecture Overview
+## WebRTC-sandbox Architecture Overview
 
 The following description illustrates how the WebRTC-sandbox uses WebRTC to connect peers and send media (audio and video) between them.
 
@@ -50,11 +50,11 @@ Below, you can see a diagram which shows how messages flow between different par
 
 <img class="center-image webrtc-low-lvl-overview" src="/assets/webrtc_low_level_v1.svg" />
 
-# Sum-up
+## Sum-up
 Learning WebRTC might be a little bit overwhelming at the beginning; it involves many different protocols, you have to think about ICE, STUN, SDP, and some actions could be taken concurrently. However, once you get your head around this, it all turns out to be quite simple, and you’ll be surprised how easily you can send data between directly-connected browsers these days.
 
 
-References:
+## References
 
 * [WebRTC-Sandbox code][webrtc-sandbox]
 * [webrtc.org][webrtc-org]

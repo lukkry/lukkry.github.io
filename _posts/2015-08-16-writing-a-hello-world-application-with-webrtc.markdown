@@ -18,7 +18,7 @@ One of the nicest things about WebRTC is that it is built in into all major brow
 
 It’s worth noting that WebRTC is not a protocol, it’s a technology which requires many different protocols, like ICE, STUN, TURN, SDP etc., in order to work.
 
-## WebRTC-sandbox Architecture Overview
+## WebRTC Sandbox Architecture Overview
 
 The following description illustrates how the WebRTC-sandbox uses WebRTC to connect peers and send media (audio and video) between them.
 
